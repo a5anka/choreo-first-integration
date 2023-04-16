@@ -1,6 +1,6 @@
 import ballerina/http;
 
-// Define configurable variables, including the hr endpoint
+// Define configurable variables, including the HR endpoint
 configurable string hrEndpoint = ?;
 
 type Request record {|
